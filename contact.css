@@ -6,7 +6,6 @@ body {
 /*Contact */
 .contact {
     padding: 15px;
-    background-color: #398a0a; 
     height: 300px;
     border-radius: 10px;
   
@@ -18,15 +17,27 @@ img {
 }
 
 .image {
+    margin-top: 50px;
     margin-bottom: 30px;
 }
 
 .contact form {
-    float: left;
-    width: 100%;
+    width: auto%;
     padding: 0px;
   
   }
+
+  section.contact{
+      margin: auto;
+      display: block;
+      text-align: center;
+  }
+
+.contact.container {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
   
   input[type=text], select, input[type=email], textarea{
     border: 1px solid #ccc;
@@ -75,4 +86,18 @@ img {
     margin: auto;
     margin-top: 10px;
     width: 100px;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    /* float: left; */
+    margin-top: 40px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
 }
