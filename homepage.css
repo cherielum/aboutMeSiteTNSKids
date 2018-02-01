@@ -1,0 +1,14 @@
+img {
+    display: block; 
+    margin: auto; 
+}
+
+.table.table{
+    display: block;
+    margin: auto;
+}
+
+.table th{
+    width: 60%;
+}
+
